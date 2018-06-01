@@ -20,7 +20,7 @@ public class shape {
 	}
 public static void main(String a[]) {
 	shape a1=new shape(2,3);
-	System.out.println("Area = " +a1.findArea());
+	System.out.println("Area="+a1.findArea());
 	System.out.println("Perimeter = "+a1.findPerimeter());
 	
 }
