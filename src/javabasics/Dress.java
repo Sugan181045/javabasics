@@ -20,7 +20,7 @@ public void setPrice(double price) {
 	one.setColor("Blue");
 	one.setPrice(2000);
 	System.out.println(one.getColor());
-	System.out.println(one.getPrice());;
+	System.out.println(one.getPrice());
 	
  }
 }
