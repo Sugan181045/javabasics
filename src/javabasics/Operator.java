@@ -13,5 +13,9 @@ public static void main(String a[]) {
 	System.out.println(~negativeCount);
 	System.out.println(num & total );
 	System.out.println( num^total);
+	System.out.println(6<<2);
+	System.out.println(6>>2);
+	System.out.println(num==total);
+	System.out.println(num>10 && total >10);
 }
 }
