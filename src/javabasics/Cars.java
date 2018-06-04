@@ -5,8 +5,11 @@ public class Cars {
 		System.out.println("empty constructor called");
 	}
 	public Cars(int i) {
+		this();
+	
 		System.out.println("one arg cons called");
 	}
+	
 	public void brake()
 	{
 		
