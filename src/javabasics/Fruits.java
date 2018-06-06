@@ -1,6 +1,6 @@
 package javabasics;
 
-public class Fruits {
+public class Fruits{
 	
 		public Fruits(){ 
 			this(2);
