@@ -7,6 +7,9 @@ public class Test {
 		System.out.println(travelone instanceof Bike);
 		System.out.println(travelone instanceof Dinosaur);
 		System.out.println(traveltwo instanceof Train);
+		Travel travelthree=new Monkey();
+		Owner owner=(Monkey)travelthree;
+		System.out.println(owner instanceof Monkey);
 	}
 
 }

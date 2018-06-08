@@ -1,6 +1,6 @@
 package javabasics;
 
-public abstract class Animal implements Travel {
+public abstract class Animal implements Travel,Owner {
 
 }
 class Cat extends Animal {
@@ -8,6 +8,11 @@ class Cat extends Animal {
 	@Override
 	public int getspeed() {
 		return 0;
+	}
+
+	@Override
+	public String getOwnerName() {
+		return null;
 	}
 	
 }
@@ -17,6 +22,11 @@ class Monkey extends Animal {
 	public int getspeed() {
 		return 0;
 	}
+
+	@Override
+	public String getOwnerName() {
+		return null;
+	}
 	
 }
 class Dinosaur extends Animal {
@@ -24,6 +34,11 @@ class Dinosaur extends Animal {
 	@Override
 	public int getspeed() {
 		return 0;
+	}
+
+	@Override
+	public String getOwnerName() {
+		return null;
 	}
 	
 }
